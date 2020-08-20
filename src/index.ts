@@ -4,7 +4,7 @@ import { DEFAULT_TEMPLATE } from "./template";
 const METHODS: string[] = ['get', 'post', 'head', 'options', 'delete', 'put', 'connect', 'trace'];
 
 type IHandler = <Req, Res>(requset: IncomingMessage | Req, response: ServerResponse | Res) => void;
-type IAddHandler = (url: string, handler: IHandler) => Routing;
+type IAddHandler = (url: string | RegExp, handler: IHandler) => Routing;
 type IMethodHandlers = Map<string | RegExp, IHandler[]>;
 
 export class Routing {
