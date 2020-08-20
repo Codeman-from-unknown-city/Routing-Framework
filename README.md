@@ -1,11 +1,15 @@
-#Simple routing framework.
+# Simple routing framework.
+
+It makes routing easier to work with.
 
 It knows how to answer on bad request 404 or 405 and have error page template, which you can change, from the box.
 
-##API:
-new Routing(http server, error page template optional)
+## API:
+```js
+new Routing(http_server, error_page_template?)
 
 routing.(method)(url, handler)
+```
 
 Example:
 ![example](example.png)
