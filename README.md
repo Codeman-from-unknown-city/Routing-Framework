@@ -7,7 +7,6 @@ It knows how to answer on bad request 404 or 405 and have error page template, w
 ## API:
 ```js
 new Routing(http_server, error_page_template?)
-<<<<<<< HEAD
 
 routing.(method)(url, handler)
 ```
