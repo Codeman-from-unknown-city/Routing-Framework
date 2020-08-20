@@ -14,12 +14,3 @@ routing.(method)(url, handler)
 
 Example:
 ![example](example.png)
-
-=======
-
-routing.(method)(url, handler)
-```
-
-Example:
-![example](example.png)
->>>>>>> d25525fae47895c0ad93086e41b1a7eab754cd23
